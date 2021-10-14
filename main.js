@@ -17,7 +17,7 @@ window.addEventListener("load", function () {
     
     run.addEventListener("click", function () {
         output.value = "";
-        let stack = Peculi(code.value, write);
+        Peculi(code.value, write);
     });
     
     let keyState = {};
